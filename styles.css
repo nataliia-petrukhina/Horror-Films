@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #1a1a1a;
+}
+
+.container {
+    /* Teacher: these values are not important for the task */
+    min-width: 320px;
+    width: 70%;
+    max-width: 1200px;
+    /*
+    Alternatively / the advanced method:
+    width: clamp(320px, 70%, 1200px);
+    */
+    margin: 1em auto;
+    background: #4b4b4b;
+}
+
+h1 {
+    padding: .5em;
+    background: #000;
+    color: white;
+}
+
+.genres-top {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-size: 1em;
+    line-height: 3em;
+}
+
+.menu-item {
+    margin: .3em;
+}
+
+main {
+    display: flex;
+    padding: 0 1em 1em 1em;
+}
+
+.sidebar {
+    width: 120px;
+    padding: 1em;
+    background: #eeeeee;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 0 10px;
+    background: #4b4b4b;
+}
+
+.thumbnail {
+    height: 130px;
+    background: #1a1a1a;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a {
+    color: black;
+}
+
+.movie-description {
+    color: white;
+    text-align: center;
+} 
